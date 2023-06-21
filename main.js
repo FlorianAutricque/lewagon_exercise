@@ -6,7 +6,7 @@ const emailErrorMessage = document.getElementById('email-error');
 const checkboxErrorMessage = document.getElementById('checkbox-error');
 
 submit.addEventListener('click', function(event) {
-  event.preventDefault(); // Prevent form submission
+  event.preventDefault();
 
   if (emailInput.value.trim() !== '' && checkBox.checked) {
     const successMessage = `
