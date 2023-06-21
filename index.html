@@ -12,8 +12,40 @@
 </head>
 <body>
 <main>
-    <h1>Good luck!</h1>
-    <div></div>
+  <div class="companies-title">
+    <div class="name-companies">
+      <img src="webistry.png" alt="webistry" class="webistry">
+      <img src="lewagon.png" alt="le wagon">
+    </div>
+
+    <h1><span style="color: #F05F5D">Level up </span>your coding <br>skills with Webistry.</h1>
+  </div>
+
+  <div class="form-container">
+    <form>
+      <h2>Let's get started by knowing <br>more about you.</h2>
+      <label for="name"><strong>Name</strong></label><br>
+      <input type="text" placeholder="   Enter your name" class="input-form"><br>
+      <label for="email"><strong>Email</strong></label><br>
+      <input type="text" placeholder="   Enter your email" id="email" class="input-form"><br>
+      <span id="email-error" class="error-message"></span>
+      <label for="coding"><strong>What's your favorite coding language?</strong></label><br>
+      <select name="choice" id="choice" class="select-form">
+        <option value="JavaScript">JavaScript</option>
+        <option value="Ruby">Ruby</option>
+        <option value="CSS">CSS</option>
+        <option value="HTML">HTML</option>
+      </select>
+      <div class="checkbox">
+        <input type="checkbox" id="infos" name="infos" value="infos">
+        <label for="infos"><strong>The information provided above is accurate</strong></label>
+      </div>
+      <span id="checkbox-error" class="error-message"></span>
+      <input type="submit" value="Level Up" class="button-level"><br>
+
+    </form>
+  </div>
+
 </main>
 <script src="main.js"></script>
 </body>

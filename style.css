@@ -1,3 +1,91 @@
 body {
-    font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #F0F1F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies-title {
+text-align: center;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+.name-companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.name-companies img {
+ margin-top: 40px;
+}
+
+.webistry {
+  max-width: 130px;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 20px;
+  width: 365px;
+  text-align: left;
+  padding: 36px 32px 40px 32px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.input-form{
+  width: 98%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 40px;
+  border: solid #F4F4F7;
+}
+
+.select-form {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 46px;
+  border: solid #F4F4F7;
+}
+
+.button-level {
+  background-color: #F05F5D;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  border: solid #F05F5D;
+  width: 99%;
+  margin-top: 20px;
+}
+
+.checkbox{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.button-level:hover {
+  background-color: #E65351;
+}
+
+label {
+  font-size: 12px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.success {
+  text-align: center;
 }
